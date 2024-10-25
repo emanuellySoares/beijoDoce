@@ -96,22 +96,41 @@
             margin: 3em;
             text-align: justify;
         }
+
+        #home {
+            position: absolute;
+            display: flex;
+        }
+
+        #home .img {
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        #home .paragrafo{
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+        }
     </style>
 </head>
 
 <body>
     <div id="home">
         <h1 class="pt-serif-bold">Essence Magic</h1>
-        <div class="centro borda">
+        <div class="centro borda img">
             <img src="img1.jpg">
         </div>
-
-        <p> Seja bem-vindo à nossa loja de perfumes, onde a diversidade de fragrâncias se encontra com uma experiência
-            de compra excepcional. Explore uma vasta seleção de aromas, desde clássicos adorados até as últimas
-            novidades do mercado. Nossos consultores especializados estão prontos para ajudar você a descobrir a
-            essência perfeita, oferecendo amostras e dicas personalizadas. Delve em um mundo de notas florais,
-            amadeiradas e frescas, e transforme sua visita em um momento memorável e envolvente.
-        </p>
+        <div class="paragrafo">
+            <p> Seja bem-vindo à nossa loja de perfumes, onde a diversidade de fragrâncias se encontra com uma
+                experiência
+                de compra excepcional. Explore uma vasta seleção de aromas, desde clássicos adorados até as últimas
+                novidades do mercado. Nossos consultores especializados estão prontos para ajudar você a descobrir a
+                essência perfeita, oferecendo amostras e dicas personalizadas. Delve em um mundo de notas florais,
+                amadeiradas e frescas, e transforme sua visita em um momento memorável e envolvente.
+            </p>
+        </div>
     </div>
 
 </body>
